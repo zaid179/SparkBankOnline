@@ -1,0 +1,26 @@
+<%- include('header') -%>
+   <div class="hero" style="text-align: center; padding: 10%;">
+       <h1 class="check"> Customers</h1>
+       <table class="table ">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Balance</th>
+           <% for (var i = 0; i < 5; i++) { %> 
+            <tr>
+
+                    <td><%= name[i] %></td>
+                    <td><%= mail[i] %></td>
+                    <td><%= bal[i] %></td>
+                
+
+            </tr>
+            <% } %>
+        </tr>
+      </table>
+
+
+   </div>
+   
+
+<%- include('footer') -%>
