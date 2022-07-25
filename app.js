@@ -7,9 +7,9 @@ require("nodemon");
 // db definition
 const connection = mysql.createConnection({
   host: "sql6.freemysqlhosting.net",
-  user: "sql6506673",
-  password: "r7Ch15zIIX",
-  database: "sql6506673",
+  user: "sql6508632",
+  password: "pSWDHUG3EB",
+  database: "sql6508632",
   port: 3306
 });
 
