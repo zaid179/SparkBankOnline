@@ -7,7 +7,7 @@ require("nodemon");
 const url = process.env.url;
 const name = process.env.name;
 const password = process.env.pass;
-
+console.log(name);
 
 // db definition
 const connection = mysql.createConnection({
