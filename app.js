@@ -4,12 +4,17 @@ const mysql = require("mysql2");
 require("nodemon");
 //const alert = require('alert');
 
+const url = process.env.url;
+const name = process.env.name;
+const password = process.env.pass;
+
+
 // db definition
 const connection = mysql.createConnection({
-  host: "sql6.freemysqlhosting.net",
-  user: "sql6508632",
-  password: "pSWDHUG3EB",
-  database: "sql6508632",
+  host: url,
+  user: name,
+  password: password,
+  database: name,
   port: 3306
 });
 
