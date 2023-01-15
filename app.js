@@ -4,7 +4,7 @@ const mysql = require("mysql2");
 require("nodemon");
 //const alert = require('alert');
 
-const url = process.env.url;
+const url = process.env.urlsql;
 const name = process.env.name;
 const password = process.env.pass;
 console.log(name);
